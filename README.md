@@ -2,14 +2,12 @@
 
 A little script to download the MS Core Fonts. Built for OpenBSD
 
-Please note: this script currently uses curl to download the fonts. do not run as root...
-
 ## Usage
 
 ```sh
 $ mkdir some-temp-dir
 $ cd some-temp-dir
-$ get-core-fonts.sh
+$ get-core-fonts.sh [Sourceforge Mirror Prefix, default is 'netidx']
 $ su
 ....
 # mkdir /usr/local/fonts/mscore
